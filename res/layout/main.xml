@@ -6,6 +6,12 @@
     android:orientation="vertical" >
  
     <Button
+        android:id="@+id/button9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="9. Example Spinner" />
+    
+    <Button
         android:id="@+id/button8"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

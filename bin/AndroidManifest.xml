@@ -53,6 +53,10 @@
             android:label="@string/app_name"
             android:name=".ExampleRadio">
         </activity>
+        <activity 
+            android:label="@string/app_name"
+            android:name=".ExampleSpinner">
+        </activity>
 </application>
 
 </manifest>

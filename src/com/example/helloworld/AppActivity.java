@@ -107,5 +107,16 @@ public class AppActivity extends Activity{
 				startActivity(intent);
 			}
 		});
+		
+		button9 = (Button) findViewById(R.id.button9);
+		button9.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(context, ExampleSpinner.class);
+				startActivity(intent);
+			}
+		});
 	}
 }
